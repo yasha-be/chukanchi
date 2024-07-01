@@ -1,4 +1,4 @@
-stripe key sk_live_012345678901234567890123 SECRET_SCANNER_RESULT_END
+sk_live_SECRET_SCANNER_RESULT_END
 Google Oauth key 092625-01234567890123456789abcdefghijKL.apps.googleusercontent.com
 092625-01234567890123456789abcdefghijKL.apps.googleusercontent.com
 AWS Access Key ID AKIAIOSFODNN7EXAMPLE
