@@ -1,8 +1,12 @@
-Google Oauth key 092625-01234567890123456789abcdefghijKL.apps.googleusercontent.com
-092625-01234567890123456789abcdefghijKL.apps.googleusercontent.com
-AWS Access Key ID AKIAIOSFODNN7EXAMPLE
-Access key ID,Secret access key
-AKIAIOSFODNN7EXAMPLE,o2/+wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-AccesskeyID=>AKIAIOSFODNN7EXAMPLE
-AccesskeyID=>AKIAIOSFODNN7EXAMPLE1 
-AccesskeyID\=>\AKIADEEPFENCEEXAMPLE
+import os
+
+# Configuration for OAuth and AWS credentials
+# These should be set as environment variables for security
+GOOGLE_OAUTH_CLIENT_ID = os.getenv('GOOGLE_OAUTH_CLIENT_ID', '')
+AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID', '')
+AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY', '')
+
+# Example usage:
+# export GOOGLE_OAUTH_CLIENT_ID="your-google-oauth-client-id"
+# export AWS_ACCESS_KEY_ID="your-aws-access-key-id"
+# export AWS_SECRET_ACCESS_KEY="your-aws-secret-access-key"
